@@ -15,7 +15,7 @@
 }
 
 .headerLeft{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   align-items: center;
   width: 50%;
@@ -27,7 +27,6 @@
   justify-content: flex-end;
   gap: 1.5em;
   width: 50%;
-  /* border: 1px solid black; */
   font-weight: 600;
   padding-right: 2em;
 
@@ -38,11 +37,6 @@
   color: white;
 }
 
-.wrapper{
-  display: inline;
-  border: 1px solid black;
-  margin-top: 3em;
-}
 
 .navbar{
   margin-left: 3rem;
@@ -63,7 +57,143 @@
 }
 
 .firstSection{
-  background-color: #f4fffd;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  background-color: rgb(240, 250, 246);
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.main{
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+  /* display: flex; */
+}
+
+.mainLeft{
+  /* border: 1px solid red; */
+  width: 50%;
+  display: inline-block;
+  padding-left: 2em;
+  /* border: 1px solid red; */
+}
+.mainRight{
+  width: 50%;
+  /* border: 1px solid red; */
+}
+
+.moto{
+  font-size: 50px;
+  padding: 0%;
+  margin-bottom: 0%;
+}
+.React{
+  color: #3bd4b0;
+}
+
+.textInp{
+  width: 70%;
+  margin-right: 2%;
+  background-color: white;
+}
+.icons{
+  margin-left: 0.7em;
+  margin-right: 0.2em;
+}
+
+.inline{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 4rem;
+}
+.mainLeft p{
+  font-size: 20px;
+  color: #808080;
+}
+
+.inline p{
+  font-size: 15px;
+}
+
+
+.trusted{
+  text-align: center;
+}
+
+.trusted p{
+  text-align: center;
+  color: #808080;
+}
+
+.customerLogo{
+    filter: grayscale(100);
+    transition: 0.2s ease-in-out;
+
+}
+
+.customerLogo:hover{
+  filter: grayscale(0);
+  transition: 0.3s ease-in-out;
+}
+
+.trusted2{
+  display: flex;
+  align-items: center;
+}
+
+.thirdSection{
+  background-color: rgb(240, 250, 246);
+  padding-top: 4em;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-bottom: 4em;
+  display: flex;
+
+}
+
+.tsLeft{
+  width: 50%; 
+}
+
+.tsLeft h2{
+  font-size: 30px;
+}
+
+.primary{
+ color: #3bd4b0; 
+ font-weight: 700;
+}
+
+.tsLeft p{
+  color: #808080;
+}
+
+.test{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.test p{
+  padding-left: 2%;
+}
+
+.tsIcons{
+  background-color: #3bd4b0;
+  color: white;
+  border-radius: 10%;
+  padding: 3px;
+}
+
+.smolHeading{
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.tsRight{
+  display: flex;
+  /* border: 1px solid red; */
+  width: 50%;
+  align-items: center;
+  justify-content: center;
 }
