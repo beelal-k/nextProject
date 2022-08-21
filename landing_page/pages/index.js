@@ -125,14 +125,19 @@ export default function Home() {
           <h2>Your title here</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar libero enim, vel egestas odio rutrum sit amet.</p>
           <div className={styles.nestedFlex}>
-            <div className={styles.fouritems}>
-              <ViewInArIcon className={styles.tsIcons} fontSize="large" />
-              <p><span className={styles.smolHeading}>Your title here</span><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar libero enim, vel egestas odio rutrum sit amet.</p>
+            <div className={styles.fourItems}>
+              <div className={styles.test}>
+                <ViewInArIcon className={styles.tsIcons} fontSize="large" />
+                <p className={styles.smolHeading}>Your title here</p>
+              </div>
+              <p className={styles.fourItemText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <div className={styles.fouritems}>
-              <ViewInArIcon className={styles.tsIcons} fontSize="large" />
-              <p className={styles.smolHeading}>Your title here</p> 
-              <p><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar libero enim, vel egestas odio rutrum sit amet.</p>
+            <div className={styles.fourItems}>
+              <div className={styles.test}>
+                <ViewInArIcon className={styles.tsIcons} fontSize="large" />
+                <p className={styles.smolHeading}>Your title here</p>
+              </div>
+              <p className={styles.fourItemText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </div>
         </div>
