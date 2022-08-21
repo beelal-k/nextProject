@@ -98,22 +98,45 @@ export default function Home() {
           <span className={styles.primary}>Awesome feature</span>
           <h2>Your title here</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar libero enim, vel egestas odio rutrum sit amet. In a elit mollis, feugiat tortor quis, feugiat purus. Vestibulum condimentum neque quis arcu blandit facilisis.</p>
-          <div className={styles.test}>
+          <div className={styles.item}>
             <ViewInArIcon className={styles.tsIcons} fontSize="large" />
-            <p><span className={styles.smolHeading}>Your title here</span><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar libero enim, vel egestas odio rutrum sit amet.</p>
+            <p><span className={styles.smolHeading}>Your title here</span><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar libero enim, vel egestas odio rutrum sit amet.</p>
           </div>
-          <div className={styles.test}>
+          <div className={styles.item}>
             <ViewInArIcon className={styles.tsIcons} fontSize="large" />
-            <p><span className={styles.smolHeading}>Your title here</span><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar libero enim, vel egestas odio rutrum sit amet.</p>
+            <p><span className={styles.smolHeading}>Your title here</span><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar libero enim, vel egestas odio rutrum sit amet.</p>
           </div>
-          <div className={styles.test}>
+          <div className={styles.item}>
             <ViewInArIcon className={styles.tsIcons} fontSize="large" />
-            <p><span className={styles.smolHeading}>Your title here</span><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar libero enim, vel egestas odio rutrum sit amet.</p>
+            <p><span className={styles.smolHeading}>Your title here</span><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar libero enim, vel egestas odio rutrum sit amet.</p>
           </div>
         </div>
         <div className={styles.tsRight}>
-          <Image src='/presentationSVG.svg' width={500} height={400}/>
+          <Image src='/presentationSVG.svg' width={500} height={400} />
         </div>
+      </Container>
+
+      <Container className={styles.fourthSection}>
+        <div className={styles.fourLeft}>
+          <Image src='/conferenceSVG.svg' width={500} height={400} />
+        </div>
+        <div className={styles.fourRight}>
+          <span className={styles.primary}>Awesome feature</span>
+          <h2>Your title here</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar libero enim, vel egestas odio rutrum sit amet.</p>
+          <div className={styles.nestedFlex}>
+            <div className={styles.fouritems}>
+              <ViewInArIcon className={styles.tsIcons} fontSize="large" />
+              <p><span className={styles.smolHeading}>Your title here</span><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar libero enim, vel egestas odio rutrum sit amet.</p>
+            </div>
+            <div className={styles.fouritems}>
+              <ViewInArIcon className={styles.tsIcons} fontSize="large" />
+              <p className={styles.smolHeading}>Your title here</p> 
+              <p><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar libero enim, vel egestas odio rutrum sit amet.</p>
+            </div>
+          </div>
+        </div>
+
       </Container>
 
     </>

@@ -167,13 +167,13 @@
   color: #808080;
 }
 
-.test{
+.item{
   display: flex;
   align-items: center;
   /* justify-content: center; */
 }
 
-.test p{
+.item p{
   padding-left: 2%;
 }
 
@@ -196,4 +196,25 @@
   width: 50%;
   align-items: center;
   justify-content: center;
+}
+
+.fourthSection{
+  padding-top: 8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.fourLeft{
+  width: 50%;
+}
+
+.fourRight{
+  width: 50%;
+  /* display: flex; */
+}
+
+.nestedFlex{
+  display: flex;
 }
