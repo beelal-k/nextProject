@@ -19,8 +19,8 @@ export default function Home() {
             <Image src='/logo.png' className={styles.logo} width={100} height={45} />
             <h2>Starter</h2>
             <nav className={styles.navbar}>
-              <Link href='/projects' underline='none' color="secondary" className={styles.links}>Pricing</Link>
-              <Link href='/blog' underline='none' color="secondary" className={styles.links}>FAQ</Link>
+              <Link href='/pricing' underline='none' color="secondary" className={styles.links}>Pricing</Link>
+              <Link href='/faq' underline='none' color="secondary" className={styles.links}>FAQ</Link>
               <Link href='/contact' underline='none' color="secondary" className={styles.links}>Contact</Link>
             </nav>
           </div>
@@ -126,14 +126,14 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar libero enim, vel egestas odio rutrum sit amet.</p>
           <div className={styles.nestedFlex}>
             <div className={styles.fourItems}>
-              <div className={styles.test}>
+              <div className={styles.fourTest}>
                 <ViewInArIcon className={styles.tsIcons} fontSize="large" />
                 <p className={styles.smolHeading}>Your title here</p>
               </div>
               <p className={styles.fourItemText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <div className={styles.fourItems}>
-              <div className={styles.test}>
+              <div className={styles.fourTest}>
                 <ViewInArIcon className={styles.tsIcons} fontSize="large" />
                 <p className={styles.smolHeading}>Your title here</p>
               </div>
@@ -144,45 +144,60 @@ export default function Home() {
 
       </Container>
 
-      <Container className={styles.fifthSection} maxWidth=''>
+      <Container className={styles.fifthSection} maxWidth='xl'>
         <div className={styles.fifthTop}>
-          <span className={styles.primary}>Awesome feature</span>
+          <span className={styles.primary}>Features</span>
           <h2>Your title here</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar libero enim, vel egestas odio rutrum sit amet.consectetur adipiscing elit.</p>
+          <br />
         </div>
         <div className={styles.fifthBottom}>
           <section>
-            <div className={styles.test}>
+            <div className={styles.fifthTest}>
               <ViewInArIcon className={styles.tsIcons} fontSize="large" />
-              <p className={styles.fifthItemText}><p className={styles.fifthHeading}>Your title here</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className={styles.fifthItemText}><span className={styles.fifthHeading}>Your title here</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.consectetur adipiscing elit.</p>
 
             </div>
           </section>
           <section>
-            <div className={styles.test}>
+            <div className={styles.fifthTest}>
               <ViewInArIcon className={styles.tsIcons} fontSize="large" />
-              <p className={styles.fifthItemText}><p className={styles.fifthHeading}>Your title here</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className={styles.fifthItemText}><span className={styles.fifthHeading}>Your title here</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.consectetur adipiscing elit.</p>
 
             </div>
           </section>
           <section>
-            <div className={styles.test}>
+            <div className={styles.fifthTest}>
               <ViewInArIcon className={styles.tsIcons} fontSize="large" />
-              <p className={styles.fifthItemText}><p className={styles.fifthHeading}>Your title here</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p className={styles.fifthItemText}><span className={styles.fifthHeading}>Your title here</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.consectetur adipiscing elit.</p>
 
             </div>
           </section>
           <section>
-            <div className={styles.test}>
+            <div className={styles.fifthTest}>
               <ViewInArIcon className={styles.tsIcons} fontSize="large" />
-              <p className={styles.fifthItemText}><p className={styles.fifthHeading}>Your title here</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
+              <p className={styles.fifthItemText}><span className={styles.fifthHeading}>Your title here</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.consectetur adipiscing elit.</p>
             </div>
           </section>
         </div>
 
       </Container>
 
+      <Container>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+
+      </Container>
 
     </>
   )

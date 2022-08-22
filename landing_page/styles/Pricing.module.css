@@ -1,0 +1,59 @@
+.headContainer {
+    background-color: rgb(229, 255, 255);
+
+}
+
+.header {
+    /* display: inline; */
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+
+.headerLeft {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.5em;
+    width: 50%;
+    font-weight: 600;
+    padding-right: 2em;
+
+}
+
+.containedBtn {
+    text-transform: none;
+    color: white;
+}
+
+
+.navbar {
+    margin-left: 3rem;
+    font-weight: 600;
+}
+
+.links {
+    padding-left: 1em;
+}
+
+.links:hover {
+    color: rgb(72, 72, 72);
+    transition: 0.2s ease-in-out;
+}
+
+.primary {
+    color: #3bd4b0;
+    font-weight: 700;
+}
+
+.mainContainer{
+    background-color: #f7fffd;
+    
+}
