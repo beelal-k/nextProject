@@ -144,6 +144,46 @@ export default function Home() {
 
       </Container>
 
+      <Container className={styles.fifthSection} maxWidth=''>
+        <div className={styles.fifthTop}>
+          <span className={styles.primary}>Awesome feature</span>
+          <h2>Your title here</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar libero enim, vel egestas odio rutrum sit amet.consectetur adipiscing elit.</p>
+        </div>
+        <div className={styles.fifthBottom}>
+          <section>
+            <div className={styles.test}>
+              <ViewInArIcon className={styles.tsIcons} fontSize="large" />
+              <p className={styles.fifthItemText}><p className={styles.fifthHeading}>Your title here</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            </div>
+          </section>
+          <section>
+            <div className={styles.test}>
+              <ViewInArIcon className={styles.tsIcons} fontSize="large" />
+              <p className={styles.fifthItemText}><p className={styles.fifthHeading}>Your title here</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            </div>
+          </section>
+          <section>
+            <div className={styles.test}>
+              <ViewInArIcon className={styles.tsIcons} fontSize="large" />
+              <p className={styles.fifthItemText}><p className={styles.fifthHeading}>Your title here</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            </div>
+          </section>
+          <section>
+            <div className={styles.test}>
+              <ViewInArIcon className={styles.tsIcons} fontSize="large" />
+              <p className={styles.fifthItemText}><p className={styles.fifthHeading}>Your title here</p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            </div>
+          </section>
+        </div>
+
+      </Container>
+
+
     </>
   )
 }
