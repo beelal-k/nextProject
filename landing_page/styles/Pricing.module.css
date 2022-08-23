@@ -1,6 +1,6 @@
 .headContainer {
     background-color: rgb(229, 255, 255);
-
+    margin: 0%;
 }
 
 .header {
@@ -54,6 +54,29 @@
 }
 
 .mainContainer{
-    background-color: #f7fffd;
+    background-color: #F7FAFC;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.mainContainer h1{
+    font-size: 38px;
+    margin: 0%;
+    color: #1A202C;
+}
+
+.mainContainer .primary{
+    margin: 0%;
+}
+
+.priceFlex{
+    background-color: #F7FAFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+.flexItem{
+    background-color: white;
     
 }

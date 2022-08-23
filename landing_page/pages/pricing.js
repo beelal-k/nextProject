@@ -24,6 +24,16 @@ const Pricing = () => {
             </Container>
             <Container className={styles.mainContainer} maxWidth='xl'>
                 <p className={styles.primary}>Pricing</p>
+                <h1>Flexible Plans</h1>
+                <section className={styles.priceFlex}>
+                    <div className={styles.flexItem}>
+                        <h4>FREE</h4>
+                    </div>
+                    <div className={styles.flexItem}>
+                        <h4>FREE</h4>
+                    </div>
+
+                </section>
             </Container>
         </>
 
