@@ -28,6 +28,9 @@ const Pricing = () => {
                 <section className={styles.priceFlex}>
                     <div className={styles.flexItem}>
                         <h4>FREE</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p><span className={styles.price}>$0</span>/mo</p>
+                        <Button variant='contained' className={styles.priceBtn}>Get Started</Button>
                     </div>
                     <div className={styles.flexItem}>
                         <h4>FREE</h4>
