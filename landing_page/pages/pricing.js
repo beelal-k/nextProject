@@ -34,6 +34,7 @@ const Pricing = () => {
                     </div>
                     <div className={styles.flexItem}>
                         <h4>FREE</h4>
+                        <p>test</p>
                     </div>
 
                 </section>
